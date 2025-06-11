@@ -1,0 +1,29 @@
+{
+  "name": "prisma-orm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "ts-node-dev --respawn --transpile-only src/index.ts",
+    "dev1" : "ts-node-dev --respawn --transpile-only src/find.ts",
+    "dev2" : "ts-node-dev --respawn --transpile-only src/createmany.ts",
+    "dev3" : "ts-node-dev --respawn --transpile-only src/update.ts",
+    "dev4" : "ts-node-dev --respawn --transpile-only src/delete.ts",
+    "dev5" : "ts-node-dev --respawn --transpile-only src/upsert.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "prisma": "^6.9.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "ts-node-dev": "^2.0.0"
+  }
+}
