@@ -1,4 +1,3 @@
-
 ---
 
 ## ✅ **3-1: Introduction and Overview of Prisma**
